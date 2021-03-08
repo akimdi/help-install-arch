@@ -1,0 +1,88 @@
+#
+# File /etc/pacman.d/mirrorlist
+#
+
+# https://www.archlinux.org/mirrorlist/all/https
+
+# Command for set the best mirror
+# echo $(curl -s "https://www.archlinux.org/mirrorlist/?country=CH&country=US&country=NL&country=DE&country=FR&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 1 -) > /home/me/ram/mirrorlist && sudo install -Dm644 --verbose /home/me/ram/mirrorlist /etc/pacman.d/mirrorlist && echo "\n" && bat /etc/pacman.d/mirrorlist && echo "\n" && sudo rm -r -f -v /home/me/ram/mirrorlist
+
+# World
+Server = https://mirror.rackspace.com/archlinux/$repo/os/$arch
+Server = https://mirrors.evowise.com/archlinux/$repo/os/$arch
+
+# Switzerland
+Server = https://pkg.adfinis-sygroup.ch/archlinux/$repo/os/$arch
+Server = https://mirror.init7.net/archlinux/$repo/os/$arch
+Server = https://mirror.puzzle.ch/archlinux/$repo/os/$arch
+Server = https://mirror.ungleich.ch/mirror/packages/archlinux/$repo/os/$arch
+
+# United States
+Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
+
+# Iceland
+Server = https://mirror.system.is/arch/$repo/os/$arch
+
+# Russia
+Server = https://mirror.truenetwork.ru/archlinux/$repo/os/$arch
+Server = https://mirror.yandex.ru/archlinux/$repo/os/$arch
+
+# Netherlands
+Server = https://mirror.i3d.net/pub/archlinux/$repo/os/$arch
+Server = https://mirror.koddos.net/archlinux/$repo/os/$arch
+Server = https://archmirror.lavatech.top/$repo/os/$arch
+Server = https://mirror.ams1.nl.leaseweb.net/archlinux/$repo/os/$arch
+Server = https://archlinux.mirror.liteserver.nl/$repo/os/$arch
+Server = https://mirror.mijn.host/archlinux/$repo/os/$arch
+Server = https://mirror.neostrada.nl/archlinux/$repo/os/$arch
+Server = https://archlinux.mirror.pcextreme.nl/$repo/os/$arch
+Server = https://archlinux.mirror.wearetriple.com/$repo/os/$arch
+Server = https://mirror-archlinux.webruimtehosting.nl/$repo/os/$arch
+Server = https://mirrors.xtom.nl/archlinux/$repo/os/$arch
+
+# Germany
+Server = https://mirror.23media.com/archlinux/$repo/os/$arch
+Server = https://appuals.com/archlinux/$repo/os/$arch
+Server = https://mirror.bethselamin.de/$repo/os/$arch
+Server = https://mirror.chaoticum.net/arch/$repo/os/$arch
+Server = https://mirror.checkdomain.de/archlinux/$repo/os/$arch
+Server = https://arch.eckner.net/archlinux/$repo/os/$arch
+Server = https://mirror.f4st.host/archlinux/$repo/os/$arch
+Server = https://ftp.fau.de/archlinux/$repo/os/$arch
+Server = https://dist-mirror.fem.tu-ilmenau.de/archlinux/$repo/os/$arch
+Server = https://mirror.gnomus.de/$repo/os/$arch
+Server = https://arch.jensgutermuth.de/$repo/os/$arch
+Server = https://mirror.fra10.de.leaseweb.net/archlinux/$repo/os/$arch
+Server = https://mirror.metalgamer.eu/archlinux/$repo/os/$arch
+Server = https://mirror.mikrogravitation.org/archlinux/$repo/os/$arch
+Server = https://ger.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://mirror.pkgbuild.com/$repo/os/$arch
+Server = https://mirrors.n-ix.net/archlinux/$repo/os/$arch
+Server = https://mirror.netcologne.de/archlinux/$repo/os/$arch
+Server = https://mirrors.niyawe.de/archlinux/$repo/os/$arch
+Server = https://mirror.orbit-os.com/archlinux/$repo/os/$arch
+Server = https://packages.oth-regensburg.de/archlinux/$repo/os/$arch
+Server = https://www.ratenzahlung.de/mirror/archlinux/$repo/os/$arch
+Server = https://ftp.halifax.rwth-aachen.de/archlinux/$repo/os/$arch
+Server = https://mirror.selfnet.de/archlinux/$repo/os/$arch
+Server = https://ftp.spline.inf.fu-berlin.de/mirrors/archlinux/$repo/os/$arch
+Server = https://archlinux.thaller.ws/$repo/os/$arch
+Server = https://mirror.ubrco.de/archlinux/$repo/os/$arch
+Server = https://arch.unixpeople.org/$repo/os/$arch
+Server = https://ftp.wrz.de/pub/archlinux/$repo/os/$arch
+Server = https://mirror.wtnet.de/arch/$repo/os/$arch
+
+# France
+Server = https://mirror.cyberbits.eu/archlinux/$repo/os/$arch
+Server = https://mirrors.eric.ovh/arch/$repo/os/$arch
+Server = https://arch-mirror.cloud.louifox.house/$repo/os/$arch
+Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
+Server = https://mirrors.celianvdb.fr/archlinux/$repo/os/$arch
+Server = https://arch.nimukaito.net/$repo/os/$arch
+Server = https://mirror.oldsql.cc/archlinux/$repo/os/$arch
+Server = https://mirrors.slaanesh.org/archlinux/$repo/os/$arch
+Server = https://mirror.sysa.tech/archlinux/$repo/os/$arch
+Server = https://mirror.thekinrar.fr/archlinux/$repo/os/$arch
+Server = https://mirror.wormhole.eu/archlinux/$repo/os/$arch
+Server = https://mirroir.wptheme.fr/archlinux/$repo/os/$arch
+Server = https://arch.yourlabs.org/$repo/os/$arch

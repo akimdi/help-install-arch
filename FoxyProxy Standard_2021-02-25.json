@@ -1,0 +1,121 @@
+{
+  "mi2zmc1604025380311": {
+    "type": 3,
+    "color": "#66cc66",
+    "title": "rutracker + rutor",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 9050,
+    "proxyDNS": true,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "rutorc6mqdinc4cz.onion",
+        "pattern": "*rutorc6mqdinc4cz.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutracker.org",
+        "pattern": "*rutracker.org*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutor.info",
+        "pattern": "*rutor.info*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "expyuzz4wqqyqhjn.onion",
+        "pattern": "*expyuzz4wqqyqhjn.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "flibustahezeous3.onion",
+        "pattern": "*flibustahezeous3.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "sblib3fk2gryb46d.onion",
+        "pattern": "*sblib3fk2gryb46d.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "youporn.com",
+        "pattern": "*youporn.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "pornhub.com",
+        "pattern": "*pornhub.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "qs3zumwfci4tntnd.onion",
+        "pattern": "*qs3zumwfci4tntnd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "vessel.shippingdocker.com",
+        "pattern": "*shippingdocker.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutrackerripnext.onion",
+        "pattern": "*rutrackerripnext.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "mode": "patterns",
+  "browserVersion": "86.0",
+  "foxyProxyVersion": "7.5.1",
+  "foxyProxyEdition": "standard"
+}
