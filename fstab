@@ -1,0 +1,46 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+#
+# File /etc/fstab
+#
+# sudo lsblk -f
+# sudo lsblk -no UUID
+# sudo lsblk -no UUID /dev/sda1
+# sudo blkid
+#
+# https://wiki.archlinux.org/index.php/Fstab
+#
+# <file system> <dir> <type> <options> <dump> <pass>
+# 
+# /dev/sda3
+UUID=1e415808-102c-4fd2-86b3-d63a9f017b18	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1
+UUID=F215-8BE6      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda2
+UUID=8939fc02-2163-4fd3-8768-f5a46d93c45d	none      	swap      	defaults  	0 0
+
+# /dev/sdd1
+UUID=f89cab9f-0382-437a-a5c5-f6d64ca826f0	/mnt/me/1tbVM         	btrfs      	rw,relatime	0 1
+
+# /dev/sdc1
+UUID=f475ce11-b050-41d9-906f-6a7ae0e4d420	/mnt/me/10tb         	btrfs      	rw,relatime	0 1
+
+# /dev/sde1
+UUID=da1cd0f0-b938-4355-b62e-1416acfad5b6	/mnt/me/6tb         	btrfs      	rw,relatime	0 1
+
+# /dev/sdf1
+UUID=9cf10519-f747-40da-b7ce-5127eaa4f22c	/mnt/me/2tbnew         	btrfs      	rw,relatime	0 1
+
+# /dev/sdg1
+UUID=12832117-953c-4df0-af9a-3752e13d5a31	/mnt/me/2tbold         	btrfs      	rw,relatime	0 1
+
+# /dev/sdb1
+UUID=d9548c91-f097-4b4a-824d-f68b1d8a27c0	/mnt/me/18tb         	btrfs      	rw,relatime	0 1
+
+# /dev/sdh1
+UUID=96433af1-6cb4-484f-9a60-11c1f0df1869	/mnt/me/4tb         	ext4      	rw,relatime,defaults,nofail    0  2
+
+# /home/me/ram -> 32GB
+tmpfs /home/me/ram tmpfs nodev,nosuid,size=32G 0 0

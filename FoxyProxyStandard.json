@@ -1,0 +1,422 @@
+{
+  "mi2zmc1604025380311": {
+    "type": 3,
+    "color": "#66cc66",
+    "title": "rutracker + onion sites",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 9050,
+    "proxyDNS": true,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "youporn.com",
+        "pattern": "*youporn.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "shippingdocker.com",
+        "pattern": "*shippingdocker.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutor.info",
+        "pattern": "*rutor.info*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "pornolab.net",
+        "pattern": "*pornolab.net*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "navalny.com",
+        "pattern": "*navalny.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion",
+        "pattern": "*duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "fjblvrw2jrxnhtg67qpbzi45r7ofojaoo3orzykesly2j3c2m3htapid.onion",
+        "pattern": "*fjblvrw2jrxnhtg67qpbzi45r7ofojaoo3orzykesly2j3c2m3htapid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion",
+        "pattern": "*dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion",
+        "pattern": "*lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion",
+        "pattern": "*vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion",
+        "pattern": "*torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion",
+        "pattern": "*2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion",
+        "pattern": "*piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "ddosxlvzzow7scc7egy75gpke54hgbg2frahxzaw6qq5osnzm7wistid.onion",
+        "pattern": "*ddosxlvzzow7scc7egy75gpke54hgbg2frahxzaw6qq5osnzm7wistid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion",
+        "pattern": "*freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "meduza.io",
+        "pattern": "*meduza.io*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "twitter.com",
+        "pattern": "*twitter.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutracker.org",
+        "pattern": "*rutracker.org*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutracker.net",
+        "pattern": "*rutracker.net*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "labtor.tv",
+        "pattern": "*labtor.tv*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "wiki",
+        "pattern": "^https?://.*\\.wiki.*\\.org/.*$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "fastix.ru",
+        "pattern": "*fastix.ru*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "linkedin.com",
+        "pattern": "*linkedin.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "zona.media",
+        "pattern": "*zona.media*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "instagram.com",
+        "pattern": "*instagram.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "doxajournal.ru",
+        "pattern": "*doxajournal.ru*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "lrt.lt",
+        "pattern": "*lrt.lt*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rezka.ag",
+        "pattern": "*rezka.ag*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rezka.cc",
+        "pattern": "*rezka.cc*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rezka.land",
+        "pattern": "*rezka.land*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion",
+        "pattern": "*o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "torproject.org",
+        "pattern": "*torproject.org*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "acf.international",
+        "pattern": "*acf.international*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "fbk.info",
+        "pattern": "*fbk.info*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion",
+        "pattern": "*juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "dw.com",
+        "pattern": "*dw.com*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion",
+        "pattern": "*haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion",
+        "pattern": "*xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "area23wbi5xf5shptuoocokv7z5xhjxktzkkmdzdzif7zgvnnyt522qd.onion",
+        "pattern": "*area23wbi5xf5shptuoocokv7z5xhjxktzkkmdzdzif7zgvnnyt522qd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "deepmexzsejpzqid3k7knaas2p73dko6kxgpou7oey7vqtmrhopjyqyd.onion",
+        "pattern": "*deepmexzsejpzqid3k7knaas2p73dko6kxgpou7oey7vqtmrhopjyqyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion",
+        "pattern": "*zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion",
+        "pattern": "*torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion",
+        "pattern": "*p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion",
+        "pattern": "*archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion",
+        "pattern": "*bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion",
+        "pattern": "*wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion",
+        "pattern": "*vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion",
+        "pattern": "*keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "sdolvtfhatvsysc6l34d65ymdwxcujausv7k5jk4cy5ttzhjoi6fzvyd.onion",
+        "pattern": "*sdolvtfhatvsysc6l34d65ymdwxcujausv7k5jk4cy5ttzhjoi6fzvyd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "crqkllx7afomrokwx6f2sjcnl2do2i3i77hjjb4eqetlgq3cths3o6ad.onion",
+        "pattern": "*crqkllx7afomrokwx6f2sjcnl2do2i3i77hjjb4eqetlgq3cths3o6ad.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "istories.media",
+        "pattern": "*istories.media*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "rutor7773fwscdatlqyc5sw3egsmwjkmklafljti5p7o236mveks3rid.onion",
+        "pattern": "*rutor7773fwscdatlqyc5sw3egsmwjkmklafljti5p7o236mveks3rid.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "6tor.org",
+        "pattern": "*6tor.org*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "p4ki2fawgxocgnulzu2kzn7xa7txnjyc4ybhqriz3hte5t5v3vec23yd.onion",
+        "pattern": "*p4ki2fawgxocgnulzu2kzn7xa7txnjyc4ybhqriz3hte5t5v3vec23yd.onion*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "mode": "patterns",
+  "browserVersion": "107.0",
+  "foxyProxyVersion": "7.5.1",
+  "foxyProxyEdition": "standard"
+}
