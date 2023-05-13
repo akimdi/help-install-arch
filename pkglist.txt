@@ -1778,3 +1778,5 @@ java-batik
 java-jline
 jenv
 jmol
+nsxiv
+catdoc
