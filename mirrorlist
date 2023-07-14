@@ -1,12 +1,20 @@
 #
 # File /etc/pacman.d/mirrorlist
 #
-#
 # https://www.archlinux.org/mirrorlist/all/https
 # https://archlinux.org/news/debug-packages-and-debuginfod
+# https://wiki.archlinux.org/title/pacman/Tips_and_tricks
+# https://archlinux.org/mirrorlist/all
+# https://mirror.pkgbuild.com/iso/latest
 #
 # Command for set the best mirror
 # echo $(curl -s "https://www.archlinux.org/mirrorlist/?country=CH&country=US&country=NL&country=DE&country=FR&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 1 -) > /home/me/ram/mirrorlist && sudo install -Dm644 --verbose /home/me/ram/mirrorlist /etc/pacman.d/mirrorlist && echo "\n" && bat /etc/pacman.d/mirrorlist && echo "\n" && sudo rm -r -f -v /home/me/ram/mirrorlist
+
+# Germany
+Server = https://mirror.pkgbuild.com/$repo/os/$arch
+
+# Russia
+Server = https://mirror.yandex.ru/archlinux/$repo/os/$arch
 
 # Czechia
 Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
