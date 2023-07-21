@@ -273,7 +273,6 @@ ffmpeg2theora
 ffmpegthumbs
 ffmpegthumbnailer
 gnome-video-effects
-pdfmod
 mupdf
 mupdf-tools
 paperwork
@@ -376,7 +375,6 @@ openvpn
 pptpclient
 wireguard-tools
 shadowsocks
-shadowsocks-qt5
 stunnel
 elinks
 lynx
@@ -785,7 +783,6 @@ usbip
 x86_energy_perf_policy
 xreader
 almanah
-texlive-most
 texlive-lang
 drawing
 ncmpcpp
@@ -1549,7 +1546,6 @@ libavif
 authoscope
 libcanberra
 gpg-tui
-lfs
 rfc
 fontconfig
 nix
@@ -1780,3 +1776,19 @@ jenv
 jmol
 nsxiv
 catdoc
+distrobox
+enet
+yuzu
+felix-rs
+ly
+wireproxy
+chafa
+dysk
+kubie
+dracut
+bees
+trivy
+nyxt
+repro-env
+speech-dispatcher
+ueberzug
