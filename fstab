@@ -1,6 +1,3 @@
-# Static information about the filesystems.
-# See fstab(5) for details.
-#
 # File /etc/fstab
 #
 # sudo lsblk -f
@@ -11,7 +8,7 @@
 # https://wiki.archlinux.org/index.php/Fstab
 #
 # <file system> <dir> <type> <options> <dump> <pass>
-# 
+#
 # /dev/sda3
 UUID=1e415808-102c-4fd2-86b3-d63a9f017b18	/         	ext4      	rw,relatime	0 1
 
