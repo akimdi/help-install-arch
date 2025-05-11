@@ -9,15 +9,15 @@
 # Command for set the best mirror
 # echo $(curl -s "https://www.archlinux.org/mirrorlist/?country=CH&country=US&country=NL&country=DE&country=FR&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 1 -) > /home/me/ram/mirrorlist && sudo install -Dm644 --verbose /home/me/ram/mirrorlist /etc/pacman.d/mirrorlist && echo "\n" && bat /etc/pacman.d/mirrorlist && echo "\n" && sudo rm -r -f -v /home/me/ram/mirrorlist
 
+# Russia
+Server = https://mirror.yandex.ru/archlinux/$repo/os/$arch
+Server = https://mirror.truenetwork.ru/archlinux/$repo/os/$arch
+
 # Serbia
 Server = https://mirror1.sox.rs/archlinux/$repo/os/$arch
 
 # United States
 Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
-
-# Russia
-Server = https://mirror.yandex.ru/archlinux/$repo/os/$arch
-Server = https://mirror.truenetwork.ru/archlinux/$repo/os/$arch
 
 # World
 Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch
