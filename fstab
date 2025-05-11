@@ -9,15 +9,6 @@
 #
 # <file system> <dir> <type> <options> <dump> <pass>
 #
-# /dev/sda3
-UUID=1e415808-102c-4fd2-86b3-d63a9f017b18	/         	ext4      	rw,relatime	0 1
-
-# /dev/sda1
-UUID=F215-8BE6      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
-
-# /dev/sda2
-UUID=8939fc02-2163-4fd3-8768-f5a46d93c45d	none      	swap      	defaults  	0 0
-
 # /dev/sdd1
 UUID=f89cab9f-0382-437a-a5c5-f6d64ca826f0	/mnt/me/1tbVM         	btrfs      	rw,relatime	0 1
 
@@ -38,6 +29,9 @@ UUID=d9548c91-f097-4b4a-824d-f68b1d8a27c0	/mnt/me/18tb         	btrfs      	rw,r
 
 # /dev/sdh1
 UUID=96433af1-6cb4-484f-9a60-11c1f0df1869	/mnt/me/4tb         	ext4      	rw,relatime,defaults,nofail    0  2
+
+# /dev/sdh1
+UUID=09f9d9e1-c8bf-4a09-9d8c-9a68abe47f87	/mnt/me/24tb         	ext4      	rw,relatime	0 1
 
 # /home/me/ram -> 32GB
 tmpfs /home/me/ram tmpfs nodev,nosuid,size=32G 0 0
